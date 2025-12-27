@@ -47,9 +47,6 @@ To-Do-List/
 ├── pom.xml
 └── README.md
 
-yaml
-Copiar código
-
 ---
 
 ## 📦 Principais Componentes
@@ -103,19 +100,17 @@ Responsável por iniciar a aplicação e orquestrar o fluxo de execução.
 git clone https://github.com/matalvesdev/To-Do-List.git
 cd To-Do-List
 Passo 2: Compile o projeto
-bash
-Copiar código
+
 mvn clean install
 Passo 3: Execute a aplicação
-bash
-Copiar código
+
 mvn exec:java
 Caso necessário, especifique a classe principal:
-
-bash
-Copiar código
 mvn exec:java -Dexec.mainClass="com.seupacote.Main"
-🎯 Conceitos Aplicados
+
+---
+
+**🎯 Conceitos Aplicados**
 Programação Orientada a Objetos
 Encapsulamento
 
